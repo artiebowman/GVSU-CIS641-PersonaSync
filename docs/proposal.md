@@ -25,7 +25,7 @@ Beyond the code, the project is a vehicle for the full systems analysis and desi
 
 # Method/Approach
 
-An iterative, use-case-driven approach following the Dennis/Wixom/Tegarden object-oriented method, scaled to a one-person team:
+An iterative, use-case-driven approach following the Dennis/Wixom/Tegarden object-oriented method, scaled to a single-member team:
 
 1. **Planning (done):** system request, feasibility, and this proposal.
 2. **Analysis (Oct):** requirements determination using the live product and my own usage as the primary source, plus a short competitor review (vendor memory export/import features, MemoryLake, Echo, AI Context Flow). Produce the requirements definition (functional and non-functional), refine the use case and activity diagrams from in-class activity 2, and add class and sequence diagrams for the delivery flow.
@@ -33,7 +33,7 @@ An iterative, use-case-driven approach following the Dennis/Wixom/Tegarden objec
 4. **Implementation (Nov):** build in thin vertical slices, each one a complete use case end to end (detect tool → choose persona → deliver → log), so there is always a working demo. Each slice ties back to numbered requirements for traceability.
 5. **Verification and SRS (late Nov–Dec):** test each use case against its requirements, finalize the SRS (25+ functional, 25+ non-functional requirements, traceability tables, change management plan), README install instructions, and project website.
 
-Weekly meeting minutes will be kept in /meetings. Because the team is one person, "meetings" will be a weekly planning and review session with the minutes documenting decisions, blockers, and next-week goals.
+Weekly meeting minutes will be kept in /meetings. Each entry is a planning and review session documenting decisions, blockers, and next-week goals.
 
 # Estimated Timeline
 
