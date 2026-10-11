@@ -1,6 +1,6 @@
 # PersonaSync — Project Checklist
 
-Team: Artie Bowman (solo)
+Team: Artie Bowman
 Repo: github.com/artiebowman/GVSU-CIS641-PersonaSync
 
 ## Every week

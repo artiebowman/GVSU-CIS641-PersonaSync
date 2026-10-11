@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+<title>PersonaSync mark</title>
+<defs><mask id="k"><rect width="64" height="64" fill="white"/><circle cx="41.03" cy="32" r="17.0" fill="none" stroke="black" stroke-width="11.69"/></mask></defs>
+<circle cx="19.78" cy="32" r="17.0" fill="#4A3FD1" mask="url(#k)"/>
+<circle cx="41.03" cy="32" r="17.0" fill="none" stroke="#111827" stroke-width="6.38"/>
+</svg>

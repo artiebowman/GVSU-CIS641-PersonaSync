@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PersonaSync™ · CIS 641 Term Project</title>
+<meta name="description" content="CIS 641 (GVSU, Fall 2026) term project site for PersonaSync™ Phase 3: analysis, design, and SRS for delivering a user's declared context into AI tools.">
+<link rel="icon" href="website/mark.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@800&display=swap" rel="stylesheet">
+<style>
+  :root{--blue:#4A3FD1;--ink:#111827;--muted:#6B7280;--line:#E5E7EB;--bg:#FFFFFF;--soft:#F5F4FF;--card:#FAFAFA}
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6;font-size:17px}
+  a{color:var(--blue);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .wrap{max-width:860px;margin:0 auto;padding:0 24px}
+  header{border-bottom:1px solid var(--line)}
+  .nav{display:flex;align-items:center;justify-content:space-between;padding:18px 0;gap:16px;flex-wrap:wrap}
+  .nav img{height:30px;display:block}
+  .nav nav a{color:var(--ink);font-weight:500;font-size:15px;margin-left:22px}
+  .hero{padding:64px 0 48px}
+  .eyebrow{color:var(--blue);font-weight:600;letter-spacing:.04em;text-transform:uppercase;font-size:13px;margin:0 0 14px}
+  h1{font-family:Montserrat,Inter,sans-serif;font-weight:800;font-size:clamp(30px,5vw,44px);line-height:1.15;margin:0 0 18px;letter-spacing:-.01em}
+  .lead{font-size:19px;color:#374151;margin:0 0 28px;max-width:680px}
+  .btns{display:flex;gap:12px;flex-wrap:wrap}
+  .btn{display:inline-block;padding:12px 18px;border-radius:10px;font-weight:600;font-size:15px;border:1.5px solid var(--blue)}
+  .btn.primary{background:var(--blue);color:#fff}
+  .btn.primary:hover{background:#3b31b3;text-decoration:none}
+  .btn.ghost{color:var(--blue);background:#fff}
+  .btn.ghost:hover{background:var(--soft);text-decoration:none}
+  section{padding:40px 0;border-top:1px solid var(--line)}
+  h2{font-family:Montserrat,Inter,sans-serif;font-weight:800;font-size:24px;margin:0 0 16px;letter-spacing:-.01em}
+  p{margin:0 0 14px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:8px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px}
+  .card h3{margin:0 0 6px;font-size:16px;font-weight:600}
+  .card p{margin:0 0 10px;color:#374151;font-size:15px}
+  .card ul{margin:0;padding-left:18px;font-size:15px}
+  .card li{margin:4px 0}
+  .note{background:var(--soft);border-left:4px solid var(--blue);padding:14px 18px;border-radius:0 12px 12px 0;font-size:15px;color:#374151}
+  .meta{color:var(--muted);font-size:14px}
+  .pill{display:inline-block;font-size:12px;font-weight:600;color:var(--blue);background:var(--soft);padding:2px 10px;border-radius:999px;margin-left:8px;vertical-align:middle}
+  table{width:100%;border-collapse:collapse;font-size:15px;margin-top:6px}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{font-weight:600;color:var(--muted);font-size:13px;text-transform:uppercase;letter-spacing:.04em}
+  footer{padding:32px 0 48px;color:var(--muted);font-size:14px;border-top:1px solid var(--line)}
+  footer a{color:var(--muted)}
+  @media (max-width:600px){.nav nav{display:none}.hero{padding:44px 0 36px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a href="https://personasync.dev" aria-label="PersonaSync"><img src="website/personasync-lockup-tm.png" alt="PersonaSync™"></a>
+    <nav>
+      <a href="#overview">Overview</a>
+      <a href="#docs">Documents</a>
+      <a href="#artifacts">Artifacts</a>
+      <a href="#team">Team</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="hero">
+    <p class="eyebrow">CIS 641 · Systems Analysis and Design · GVSU · Fall 2026</p>
+    <h1>Train your AI once. Use it everywhere.</h1>
+    <p class="lead">PersonaSync™ builds the context that travels with you. Write down who you are and what you are working on once, and it carries that into whatever AI assistant you open. This site holds the analysis, design, and requirements work for Phase 3, the delivery client.</p>
+    <div class="btns">
+      <a class="btn primary" href="https://app.personasync.dev">Open the live product</a>
+      <a class="btn ghost" href="https://github.com/artiebowman/GVSU-CIS641-PersonaSync">View the course repository</a>
+    </div>
+  </div>
+
+  <section id="overview">
+    <h2>Project overview</h2>
+    <p>People who use more than one AI assistant re-explain themselves every time they switch. Each vendor keeps its own memory and none of it travels. PersonaSync fixes that with a portable context layer: the user authors a persona and their personal context once, and PersonaSync delivers it into the tool they are using.</p>
+    <p>Phases 1 and 2 already exist and are live at <a href="https://app.personasync.dev">app.personasync.dev</a>: a persona web app with four context lanes and a scoring engine, and the Personal Context Layer (PCL), a set of MCP read tools that let other software read a user's context in a structured way. PersonaSync is the first consumer of the PCL.</p>
+    <p>This term project is <strong>Phase 3</strong>: a client that detects which AI tool is active, lets the user pick a persona, formats the context for that tool, inserts it, and logs what was shared with which tool. One rule runs through the whole product. The user writes and confirms everything the system knows about them, and anything an AI suggests is tagged and stays out until the user approves it.</p>
+    <div class="note">The course work follows the Dennis, Wixom, and Tegarden object-oriented method: system request, requirements, use case and activity models, class and CRC models, sequence and state machine models, and a Software Requirements Specification with traceability. The SRS is the primary academic deliverable.</div>
+  </section>
+
+  <section id="docs">
+    <h2>Documents</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Software Requirements Specification <span class="pill">prototype</span></h3>
+        <p>Functional and non-functional requirements grouped by feature. Grows to the final SRS in December.</p>
+        <ul>
+          <li><a href="https://github.com/artiebowman/GVSU-CIS641-PersonaSync/blob/main/docs/software_requirements_specification.md">Read the SRS (Markdown)</a></li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Project proposal</h3>
+        <p>Introduction, technologies, approach, timeline, and anticipated problems.</p>
+        <ul>
+          <li><a href="https://github.com/artiebowman/GVSU-CIS641-PersonaSync/blob/main/docs/proposal.md">Read the proposal</a></li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Meeting minutes</h3>
+        <p>Weekly planning and review notes. Each entry records decisions, blockers, and next-week goals.</p>
+        <ul>
+          <li><a href="https://github.com/artiebowman/GVSU-CIS641-PersonaSync/tree/main/meetings">Browse the minutes</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="artifacts">
+    <h2>Artifacts</h2>
+    <p class="meta">Analysis and design models produced in class, in the order they were made. Each PDF has a short write-up and the diagram pages.</p>
+    <table>
+      <thead><tr><th>Week</th><th>Artifact</th><th>Files</th></tr></thead>
+      <tbody>
+        <tr>
+          <td>3</td>
+          <td>System request</td>
+          <td><a href="https://github.com/artiebowman/GVSU-CIS641-PersonaSync/blob/main/artifacts/ica1-system-request.pdf">ica1-system-request.pdf</a></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Use case diagrams and activity diagrams</td>
+          <td><a href="https://github.com/artiebowman/GVSU-CIS641-PersonaSync/blob/main/artifacts/ica2-use-case-and-activity-diagrams.pdf">ica2-use-case-and-activity-diagrams.pdf</a></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>CRC cards and class diagram</td>
+          <td><a href="https://github.com/artiebowman/GVSU-CIS641-PersonaSync/blob/main/artifacts/ica3-crc-cards-and-class-diagram.pdf">ica3-crc-cards-and-class-diagram.pdf</a></td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Sequence diagram and state machine diagram</td>
+          <td>
+            <a href="https://github.com/artiebowman/GVSU-CIS641-PersonaSync/blob/main/artifacts/ica4-sequence-and-state-machine-diagrams.pdf">ica4-sequence-and-state-machine-diagrams.pdf</a><br>
+            <a href="https://github.com/artiebowman/GVSU-CIS641-PersonaSync/blob/main/artifacts/ica4-sequence-diagram-deliver-context.png">sequence diagram (png)</a> ·
+            <a href="https://github.com/artiebowman/GVSU-CIS641-PersonaSync/blob/main/artifacts/ica4-state-machine-contextblock.png">state machine (png)</a> ·
+            <a href="https://github.com/artiebowman/GVSU-CIS641-PersonaSync/tree/main/artifacts/source">source scripts</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="meta" style="margin-top:12px">Full folder: <a href="https://github.com/artiebowman/GVSU-CIS641-PersonaSync/tree/main/artifacts">artifacts/</a></p>
+  </section>
+
+  <section id="team">
+    <h2>Team</h2>
+    <div class="card">
+      <h3>Artie Bowman</h3>
+      <p>Project owner, analyst, developer, and documentation. M.S. in Artificial Intelligence, Grand Valley State University.</p>
+      <ul>
+        <li><a href="https://artiebowman.github.io/CIS641-HW2-Bowman/">Course page</a> · <a href="https://artiebowman.com">artiebowman.com</a> · <a href="https://github.com/artiebowman">GitHub</a> · <a href="https://www.linkedin.com/in/artiebowman">LinkedIn</a></li>
+      </ul>
+    </div>
+    <p class="meta" style="margin-top:16px">PersonaSync™ started as individual work in earlier coursework and is a trademarked product in Artie's name, so the term project is carried by a single-member team to keep the intellectual property lines clear.</p>
+    <p class="meta" style="margin-top:8px">Repository scope: this repository holds course deliverables only. PersonaSync™ is a trademarked product and its implementation lives in a private repository; the course instructor has collaborator access there to review commits.</p>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">PersonaSync™ · CIS 641 term project · Grand Valley State University, Fall 2026 · <a href="https://personasync.dev">personasync.dev</a></div>
+</footer>
+</body>
+</html>
