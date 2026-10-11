@@ -12,8 +12,8 @@ Repo: github.com/artiebowman/GVSU-CIS641-PersonaSync
 ## This week — Week 7 (Oct 12–18)
 
 - [x] Minutes — filed 10/11
-- [ ] HW3 — due Wed 10/14
-- [ ] In-class activity 4 — due Wed 10/14
+- [x] HW3 — submitted 10/11
+- [x] In-class activity 4 — submitted 10/11
 - [ ] Wed 10/14 — ask Dr. Sutrave: midterm SRS due date + template; final deliverables date (Dec 11 or 12)
 - [ ] System request, feasibility analysis, requirements definition (Ch 1–3) — Fri 10/16
 - [ ] Use case descriptions; functional, structural, behavioral models (Ch 4–7, 10) — Sat 10/17
