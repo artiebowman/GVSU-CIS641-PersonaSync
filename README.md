@@ -4,7 +4,7 @@ PersonaSync™ is a portable context layer for people who work across more than 
 
 ## Team Members and Roles
 
-* [Artie Bowman](https://github.com/artiebowman/CIS641-HW2-Bowman) (Project owner, analyst, developer, documentation)
+* [Artie Bowman](https://github.com/artiebowman/CIS641-Bowman) (Project owner, analyst, developer, documentation)
 
 ## Repository Scope
 
