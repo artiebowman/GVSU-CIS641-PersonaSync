@@ -18,6 +18,7 @@ Repo: github.com/artiebowman/GVSU-CIS641-PersonaSync
 - [ ] System request, feasibility analysis, requirements definition (Ch 1–3) — Fri 10/16
 - [ ] Use case descriptions; functional, structural, behavioral models (Ch 4–7, 10) — Sat 10/17
 - [ ] Minutes — Sun 10/18
+- [ ] Consistency pass on ICA1–3 (system request, use case/activity diagrams, CRC/class diagram): align class names, feature names, and the confirmation-rule wording with ICA4 and the SRS; re-export PDFs into artifacts/ — before the midterm SRS and the 10/28 pulse check
 
 ## Milestones
 
