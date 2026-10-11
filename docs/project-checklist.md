@@ -14,6 +14,7 @@ Repo: github.com/artiebowman/GVSU-CIS641-PersonaSync
 - [x] Minutes — filed 10/11
 - [ ] HW3 — due Wed 10/14
 - [ ] In-class activity 4 — due Wed 10/14
+- [ ] Wed 10/14 — ask Dr. Sutrave: midterm SRS due date + template; final deliverables date (Dec 11 or 12)
 - [ ] System request, feasibility analysis, requirements definition (Ch 1–3) — Fri 10/16
 - [ ] Use case descriptions; functional, structural, behavioral models (Ch 4–7, 10) — Sat 10/17
 - [ ] Minutes — Sun 10/18
@@ -22,9 +23,10 @@ Repo: github.com/artiebowman/GVSU-CIS641-PersonaSync
 
 | Date | Milestone |
 |---|---|
+| TBD (confirm 10/14) | Midterm SRS — software requirements specification |
 | Wed 10/28 | Pulse check — short deck of project artifacts to date |
 | Wed 11/18 | First working vertical slice (target from proposal) |
-| Week of 12/7 | Final deliverables (see CIS641_FinalDeliverables.pdf) |
+| Fri 12/11 or Sat 12/12 (confirm) | Final deliverables (see CIS641_FinalDeliverables.pdf) |
 
 ## Done
 
