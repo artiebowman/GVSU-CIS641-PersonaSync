@@ -14,7 +14,7 @@ Discussion points:
 * Pulse check (10/28) will be a light 5-slide deck of the class artifacts produced to date
 * HW3 artifacts pushed: prototype SRS (docs/software_requirements_specification.md, FR1–4 and NFR1–4 grouped by feature), project site at artiebowman.github.io/GVSU-CIS641-PersonaSync, ICA1–4 PDFs and ICA4 source scripts in artifacts/
 * Decision: course sites are index pages that link to the real ones (app.personasync.dev, artiebowman.com) rather than copies; asked Dr. Sutrave whether the real sites can stand in
-* Decision: personal repo renamed CIS641-HW2-Bowman → GVSU-CIS641-Bowman to match the team repo pattern; team wording in docs is "single-member team" with the IP reason stated once on the site
+* Decision: personal repo renamed CIS641-HW2-Bowman → GVSU-CIS641-Bowman to match the team repo pattern; team wording in docs is "single-member team"
 * Tooling: Drive now mirrors Blackboard for CIS 641 (slides Wk 1–6, HW sheets, announcements)
 
 Goals for next week (include responsibilities)
@@ -23,3 +23,5 @@ Goals for next week (include responsibilities)
 * Artie: chapter-apply session 1 — Ch. 1–3 (system request, feasibility, requirements definition) — 10/16
 * Artie: chapter-apply session 2 — Ch. 4–7, 10 (use case descriptions, functional/structural/behavioral models) — 10/17
 * Artie: draft the pulse-check deck outline — 10/25
+
+Edited 2026-10-25: removed a reference to the team's IP rationale from this public record; the wording decision itself is unchanged.
